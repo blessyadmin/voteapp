@@ -10,4 +10,4 @@ spec:
       nodePort: 30011
   selector: 
     type: frontend
-    app: vote-app
+    app: voteapp

@@ -10,4 +10,4 @@ spec:
       nodePort: 30012
   selector: 
     type: frontend
-    app: result-app
+    app: resultapp
