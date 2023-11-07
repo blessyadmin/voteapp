@@ -1,0 +1,11 @@
+apiVersion: v1 
+kind: Pod 
+metadata: 
+   name: workerapp
+   labels: 
+      app: workerapp
+      type: frontend 
+spec: 
+  containers: 
+   - name: workerapp-container
+     image: vsiraparapu/worker-app
